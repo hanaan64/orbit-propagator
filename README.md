@@ -36,19 +36,11 @@ Open `index.html` in any modern browser, or use the live demo link above.
 
 ## Limitations
 
-This is a quick-look analysis tool, not operations-grade software.
-
 - Earth orientation uses Greenwich mean sidereal time only (no precession, nutation or polar motion)
 - The atmosphere is a fixed exponential model with no solar-cycle variation, so lifetimes are order-of-magnitude estimates
 - J2 is the only gravity harmonic; there are no third-body (Sun/Moon) or solar radiation pressure perturbations
 - The Earth's shadow is cylindrical (no penumbra)
 
-## Next steps
-
-- Higher-order gravity (J3, J4) and Sun/Moon third-body perturbations
-- TLE import with SGP4, to compare against real satellites
-- NRLMSISE-00 atmosphere with solar flux input
-
 ## About
 
-Built by Hanaan Khan, MSc Space Science and Engineering (Space Technology), UCL. Developed with AI assistance, with the physics validated against analytical results as shown above.
+Built by Hanaan Khan
